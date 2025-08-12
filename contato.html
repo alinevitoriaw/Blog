@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Crimson Pages - Contato</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>The Crimson Pages</h1>
+    <p>Música e literatura em tons de vermelho profundo</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="livros.html">Livros</a>
+      <a href="musicas.html">Músicas</a>
+      <a href="contato.html" class="active">Contato</a>
+    </nav>
+  </header>
+
+  <main style="max-width: 600px; margin: 40px auto; padding: 0 20px;">
+    <h3>Me mande dicas de temas e mais!</h3>
+    <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+      <label for="nome">Nome:</label>
+      <input id="nome" name="nome" type="text" required style="padding: 8px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+      
+      <label for="email">E-mail:</label>
+      <input id="email" name="email" type="email" required style="padding: 8px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+      
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required style="padding: 8px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+      
+      <button type="submit" style="padding: 10px 15px; font-size: 1rem; border: none; border-radius: 5px; background-color: #ff6347; color: white; cursor: pointer; transition: background-color 0.3s ease;">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por Aline · © 2025</p>
+  </footer>
+</body>
+</html>
